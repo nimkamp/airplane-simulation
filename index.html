@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Airplane Control Simulation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Airplane Control Simulation</h1>
+  <div id="controls">
+    <label for="yaw">Yaw Angle (°): </label>
+    <input type="number" id="yaw" min="0" max="360" value="0" step="1" />°
+    <label for="speed">Airspeed (knots): </label>
+    <input type="number" id="speed" min=0 value="50" step="1" /> knots
+  </div>
+  <canvas id="trajectoryCanvas" width="800" height="600"></canvas>
+
+  <script src="app.js"></script>
+</body>
+</html>
